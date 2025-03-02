@@ -22,7 +22,7 @@ const pool = mysql.createPool({
   connectTimeout: 10000
 });
 
-// Optional: Test connection on startup
+// check DB connection
 (async () => {
   try {
     const connection = await pool.getConnection();

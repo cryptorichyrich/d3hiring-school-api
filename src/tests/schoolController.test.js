@@ -40,6 +40,4 @@ describe('School API', () => {
     expect(response.status).toBe(200);
     expect(response.body.students).toContain('common@test.com');
   });
-
-  // Add more tests for suspend and notifications
 });
