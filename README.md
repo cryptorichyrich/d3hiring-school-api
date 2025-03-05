@@ -8,7 +8,7 @@ This is a NodeJS-based API designed to allow teachers to perform administrative 
 
 Hosted API (Optional)
 
--   API Base URL: (e.g., https://teacher-student-api.herokuapp.com)  
+-   API Base URL: (e.g., https://d3hiring.up.railway.app)  
     (Replace with actual deployment URL if deployed)
     
 
@@ -117,7 +117,7 @@ You can test the API endpoints using tools like Postman or cURL. Below are the a
     
 -   Headers: Content-Type: application/json
     
--   Body Example:
+-   Request Body Example:
     
     json
     
@@ -133,8 +133,8 @@ You can test the API endpoints using tools like Postman or cURL. Below are the a
 
 2. Get Common Students
 
--   Endpoint: GET /api/commonstudents?teacher=teacherken%40gmail.com&teacher=teacherjoe%40gmail.com
-    
+-   Endpoint: GET /api/commonstudents?teacher=teacherken@gmail.com
+
 -   Success Response (HTTP 200):
     
     json
@@ -152,7 +152,7 @@ You can test the API endpoints using tools like Postman or cURL. Below are the a
     
 -   Headers: Content-Type: application/json
     
--   Body Example:
+-   Request Body Example:
     
     json
     
@@ -171,7 +171,7 @@ You can test the API endpoints using tools like Postman or cURL. Below are the a
     
 -   Headers: Content-Type: application/json
     
--   Body Example:
+-   Request Body Example:
     
     json
     
@@ -231,27 +231,6 @@ SCHOOL-API/
 ├── package.json
 └── README.md
 ```
-
-Optional: Postman Collection
-
-A Postman collection is included in the repository: TeacherStudentAPI.postman_collection.json. Import it into Postman to test the endpoints easily.
-
-Notes
-
--   The API assumes authentication is handled upstream; no login logic is implemented.
-    
--   Error responses are standardized with meaningful messages.
-    
--   The code follows modular design principles for readability and testability.
-    
-
-Troubleshooting
-
--   Database Connection Issues: Ensure MySQL is running and credentials in .env are correct.
-    
--   Port Conflicts: Change the PORT in .env if 3000 is in use.
-    
--   Contact d3hiring@gmail.com for additional support.
     
 
 ----------
