@@ -30,8 +30,8 @@ Installation
     bash
     
     ```bash
-    git clone https://github.com/yourusername/teacher-student-api.git
-    cd teacher-student-api
+    git clone https://github.com/cryptorichyrich/d3hiring-school-api.git
+    cd d3hiring-school-api
     ```
     
 2.  Install Dependencies
